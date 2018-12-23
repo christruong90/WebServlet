@@ -1,0 +1,784 @@
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.81
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 11 2017 10:21:27 UTC
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.81.0
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_144-b01
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/Denny/Desktop/tomcat/conf/logging.properties
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/Denny/Desktop/tomcat/endorsed
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:07:29 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/Denny/Desktop/tomcat/temp
+Sep 11, 2018 12:07:29 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Denny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Sep 11, 2018 12:07:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:07:30 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:07:30 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1156 ms
+Sep 11, 2018 12:07:30 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 11, 2018 12:07:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Sep 11, 2018 12:07:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/docs
+Sep 11, 2018 12:07:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/docs has finished in 434 ms
+Sep 11, 2018 12:07:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/manager
+Sep 11, 2018 12:07:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/manager has finished in 117 ms
+Sep 11, 2018 12:07:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01 has finished in 113 ms
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/examples
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/examples has finished in 364 ms
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/midp
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/midp has finished in 54 ms
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT has finished in 84 ms
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager has finished in 72 ms
+Sep 11, 2018 12:07:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:07:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:07:31 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1314 ms
+Sep 11, 2018 12:18:25 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 11, 2018 12:18:25 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:18:25 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:18:25 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 11, 2018 12:18:25 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:18:25 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:18:25 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:18:25 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.81
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 11 2017 10:21:27 UTC
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.81.0
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_144-b01
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/Denny/Desktop/tomcat/conf/logging.properties
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/Denny/Desktop/tomcat/endorsed
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/Denny/Desktop/tomcat/temp
+Sep 11, 2018 12:23:11 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Denny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Sep 11, 2018 12:23:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:23:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 872 ms
+Sep 11, 2018 12:23:11 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 11, 2018 12:23:11 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Sep 11, 2018 12:23:11 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/docs
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/docs has finished in 380 ms
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/manager
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/manager has finished in 133 ms
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01 has finished in 110 ms
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/examples
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/examples has finished in 321 ms
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/midp
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/midp has finished in 91 ms
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT has finished in 61 ms
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager has finished in 67 ms
+Sep 11, 2018 12:23:12 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:23:12 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:23:12 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1239 ms
+Sep 11, 2018 12:27:07 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 11, 2018 12:27:07 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:27:07 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:27:07 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 11, 2018 12:27:07 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:27:07 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:27:07 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:27:07 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.81
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 11 2017 10:21:27 UTC
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.81.0
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_144-b01
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/Denny/Desktop/tomcat/conf/logging.properties
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/Denny/Desktop/tomcat/endorsed
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/Denny/Desktop/tomcat/temp
+Sep 11, 2018 12:27:35 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Denny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Sep 11, 2018 12:27:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:27:35 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 947 ms
+Sep 11, 2018 12:27:35 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 11, 2018 12:27:35 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Sep 11, 2018 12:27:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/docs
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/docs has finished in 407 ms
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/manager
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/manager has finished in 139 ms
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01 has finished in 132 ms
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/examples
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/examples has finished in 375 ms
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/midp
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/midp has finished in 60 ms
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT has finished in 44 ms
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager has finished in 56 ms
+Sep 11, 2018 12:27:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:27:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:27:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1287 ms
+Sep 11, 2018 12:32:20 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 11, 2018 12:32:20 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:32:20 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:32:20 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 11, 2018 12:32:20 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:32:20 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:32:20 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:32:20 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.81
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 11 2017 10:21:27 UTC
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.81.0
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_144-b01
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/Denny/Desktop/tomcat/conf/logging.properties
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/Denny/Desktop/tomcat/endorsed
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:32:45 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/Denny/Desktop/tomcat/temp
+Sep 11, 2018 12:32:45 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Denny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Sep 11, 2018 12:32:46 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:32:46 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:32:46 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 924 ms
+Sep 11, 2018 12:32:46 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 11, 2018 12:32:46 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Sep 11, 2018 12:32:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/docs
+Sep 11, 2018 12:32:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/docs has finished in 468 ms
+Sep 11, 2018 12:32:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/manager
+Sep 11, 2018 12:32:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/manager has finished in 117 ms
+Sep 11, 2018 12:32:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01
+Sep 11, 2018 12:32:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01 has finished in 116 ms
+Sep 11, 2018 12:32:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/examples
+Sep 11, 2018 12:32:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/examples has finished in 397 ms
+Sep 11, 2018 12:32:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/midp
+Sep 11, 2018 12:32:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/midp has finished in 59 ms
+Sep 11, 2018 12:32:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT
+Sep 11, 2018 12:32:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT has finished in 41 ms
+Sep 11, 2018 12:32:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager
+Sep 11, 2018 12:32:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager has finished in 64 ms
+Sep 11, 2018 12:32:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:32:47 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:32:47 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1349 ms
+Sep 11, 2018 12:33:34 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 11, 2018 12:33:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:33:34 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:33:34 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 11, 2018 12:33:34 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:33:34 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:33:34 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:33:34 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.81
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 11 2017 10:21:27 UTC
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.81.0
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_144-b01
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/Denny/Desktop/tomcat/conf/logging.properties
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/Denny/Desktop/tomcat/endorsed
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/Denny/Desktop/tomcat/temp
+Sep 11, 2018 12:33:58 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Denny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Sep 11, 2018 12:33:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:33:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 834 ms
+Sep 11, 2018 12:33:58 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 11, 2018 12:33:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Sep 11, 2018 12:33:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/docs
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/docs has finished in 383 ms
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/manager
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/manager has finished in 138 ms
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01 has finished in 134 ms
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/examples
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/examples has finished in 337 ms
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/midp
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/midp has finished in 71 ms
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT has finished in 51 ms
+Sep 11, 2018 12:33:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager
+Sep 11, 2018 12:34:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager has finished in 75 ms
+Sep 11, 2018 12:34:00 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 12:34:00 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 12:34:00 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1262 ms
+Sep 11, 2018 1:04:30 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 11, 2018 1:04:30 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:04:30 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:04:30 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 11, 2018 1:04:30 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:04:30 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:04:30 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:04:30 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.81
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 11 2017 10:21:27 UTC
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.81.0
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_144-b01
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/Denny/Desktop/tomcat/conf/logging.properties
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/Denny/Desktop/tomcat/endorsed
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:17:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/Denny/Desktop/tomcat/temp
+Sep 11, 2018 1:17:31 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Denny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Sep 11, 2018 1:17:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:17:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:17:32 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1293 ms
+Sep 11, 2018 1:17:32 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 11, 2018 1:17:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Sep 11, 2018 1:17:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/docs
+Sep 11, 2018 1:17:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/docs has finished in 517 ms
+Sep 11, 2018 1:17:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/manager
+Sep 11, 2018 1:17:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/manager has finished in 120 ms
+Sep 11, 2018 1:17:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01
+Sep 11, 2018 1:17:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01 has finished in 112 ms
+Sep 11, 2018 1:17:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/examples
+Sep 11, 2018 1:17:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/examples has finished in 344 ms
+Sep 11, 2018 1:17:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/midp
+Sep 11, 2018 1:17:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/midp has finished in 60 ms
+Sep 11, 2018 1:17:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT
+Sep 11, 2018 1:17:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT has finished in 56 ms
+Sep 11, 2018 1:17:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager
+Sep 11, 2018 1:17:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager has finished in 82 ms
+Sep 11, 2018 1:17:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:17:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:17:33 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1403 ms
+Sep 11, 2018 1:19:13 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 11, 2018 1:19:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:19:13 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:19:13 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 11, 2018 1:19:13 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:19:13 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:19:13 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:19:13 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.81
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 11 2017 10:21:27 UTC
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.81.0
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_144-b01
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/Denny/Desktop/tomcat/conf/logging.properties
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/Denny/Desktop/tomcat/endorsed
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:19:38 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/Denny/Desktop/tomcat/temp
+Sep 11, 2018 1:19:38 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Denny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Sep 11, 2018 1:19:38 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:19:39 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:19:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 965 ms
+Sep 11, 2018 1:19:39 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 11, 2018 1:19:39 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Sep 11, 2018 1:19:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/docs
+Sep 11, 2018 1:19:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/docs has finished in 396 ms
+Sep 11, 2018 1:19:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/manager
+Sep 11, 2018 1:19:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/manager has finished in 120 ms
+Sep 11, 2018 1:19:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01
+Sep 11, 2018 1:19:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01 has finished in 128 ms
+Sep 11, 2018 1:19:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/examples
+Sep 11, 2018 1:19:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/examples has finished in 434 ms
+Sep 11, 2018 1:19:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/midp
+Sep 11, 2018 1:19:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/midp has finished in 61 ms
+Sep 11, 2018 1:19:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT
+Sep 11, 2018 1:19:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT has finished in 50 ms
+Sep 11, 2018 1:19:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager
+Sep 11, 2018 1:19:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager has finished in 54 ms
+Sep 11, 2018 1:19:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:19:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:19:40 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1332 ms
+Sep 11, 2018 1:22:37 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 11, 2018 1:22:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:22:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:22:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 11, 2018 1:22:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:22:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:22:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:22:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.81
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Aug 11 2017 10:21:27 UTC
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.81.0
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_144-b01
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/Denny/Desktop/tomcat/conf/logging.properties
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/Denny/Desktop/tomcat/endorsed
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/Denny/Desktop/tomcat
+Sep 11, 2018 1:22:59 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/Denny/Desktop/tomcat/temp
+Sep 11, 2018 1:22:59 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/Denny/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Sep 11, 2018 1:23:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:23:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:23:00 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 874 ms
+Sep 11, 2018 1:23:00 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 11, 2018 1:23:00 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Sep 11, 2018 1:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/docs
+Sep 11, 2018 1:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/docs has finished in 473 ms
+Sep 11, 2018 1:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/manager
+Sep 11, 2018 1:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/manager has finished in 112 ms
+Sep 11, 2018 1:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01
+Sep 11, 2018 1:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/Asn01 has finished in 129 ms
+Sep 11, 2018 1:23:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/examples
+Sep 11, 2018 1:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/examples has finished in 334 ms
+Sep 11, 2018 1:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/midp
+Sep 11, 2018 1:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/midp has finished in 78 ms
+Sep 11, 2018 1:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT
+Sep 11, 2018 1:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/ROOT has finished in 59 ms
+Sep 11, 2018 1:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager
+Sep 11, 2018 1:23:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/Denny/Desktop/tomcat/webapps/host-manager has finished in 64 ms
+Sep 11, 2018 1:23:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 1:23:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 1:23:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1326 ms
+Sep 11, 2018 4:00:42 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 11, 2018 4:00:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 4:00:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 4:00:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 11, 2018 4:00:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 4:00:42 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 11, 2018 4:00:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Sep 11, 2018 4:00:42 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
